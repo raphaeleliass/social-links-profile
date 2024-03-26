@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-inter bg-offBlack text-paragraph
+}
+
+.card-links {
+    @apply inline-block px-28 py-3 font-medium text-white bg-grey hover:bg-primary hover:text-black rounded-lg transition-all
+}
